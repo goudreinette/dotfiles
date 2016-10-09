@@ -9,7 +9,10 @@ alias b="cd ~/Documents/buku"
 alias B="cd ~/Documents/buku/resources/assets/js"
 
 # Program Shortcuts
-alias gca="git add . & git commit -a -m '$argv' & git push "
+alias g="git"
+alias gi="git init"
+alias gaa="git add ."
+alias gp="git push"
 alias v="nvim"
 alias vup="vagrant up"
 alias gw="gulp watch"
@@ -18,7 +21,7 @@ alias ni="npm install"
 alias nt="npm test"
 
 
-function foo
+function gca
     git add .
     git commit -m "$argv"
     git push
