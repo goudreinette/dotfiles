@@ -20,6 +20,6 @@ alias nt="npm test"
 
 function foo
     git add .
-    git commit -m '$argv'
+    git commit -m "$argv"
     git push
 end
