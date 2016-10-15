@@ -1,1 +1,1 @@
-/home/reinvdwoerd/.local/share/omf/themes/default/fish_prompt.fish
+/home/reinvdwoerd/.local/share/omf/themes/cmorrell/fish_prompt.fish
