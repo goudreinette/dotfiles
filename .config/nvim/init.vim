@@ -26,7 +26,6 @@ map <leader>t :Unite buffer<CR>
 map <leader>sp :split<CR>
 
 " Git
-map <leader>gcp :!gcp
 map <leader>gca :!gca 
 
 " RSpec.vim mappings
