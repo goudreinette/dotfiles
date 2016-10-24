@@ -25,6 +25,10 @@ map <leader>st :Startify<CR>
 map <leader>t :Unite buffer<CR>
 map <leader>sp :split<CR>
 
+" Git
+map <leader>gcp :!gcp
+map <leader>gca :!gca 
+
 " RSpec.vim mappings
 map <Leader>r :!rspec %<CR>
 map <Leader>rn :call RunNearestSpec()<CR>
