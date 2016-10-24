@@ -26,3 +26,13 @@ function gca
     git commit -m "$argv"
     git push
 end
+
+function gcp
+    git commit -m "$argv"
+    git push
+end
+
+function nodecat
+  set code (cat ./$argv)
+  node -e "$code" -i
+end

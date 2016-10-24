@@ -1,0 +1,9 @@
+# ignore everything
+*
+
+# but not these files
+!.gitignore
+!.config/fish/
+!.atom
+!.yaourtrc
+!.config/nvim/init.vim
