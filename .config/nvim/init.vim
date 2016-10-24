@@ -9,6 +9,7 @@ Plug 'garbas/vim-snipmate'
 Plug 'jiangmiao/auto-pairs'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
+Plug 'kien/ctrlp.vim'
 Plug 'honza/vim-snippets'
 
 call plug#end()
@@ -20,7 +21,7 @@ map <leader>w :w<CR>
 map <leader>q :q<CR>
 map <leader>wq :wq<CR>
 map <leader>pi :PlugInstall<CR>
-map <leader>p :Unite bookmark file<CR>
+map <leader>p :CtrlP .<CR>
 map <leader>st :Startify<CR>
 map <leader>t :Unite buffer<CR>
 map <leader>sp :split<CR>
