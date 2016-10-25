@@ -3,7 +3,5 @@
 
 # but not these files
 !.gitignore
-!.config/fish/
-!.atom/
-!.yaourtrc
-!.config/nvim/init.vim
+!fish/
+!nvim/init.vim
