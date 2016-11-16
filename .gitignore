@@ -4,5 +4,5 @@
 # but not these files
 !.gitignore
 !fish/
-!fish/functions/
+!fish/functions/aliases.fish
 !nvim/init.vim
