@@ -29,6 +29,10 @@ function gca
     git push
 end
 
+function gcr
+    git clone "git@github.com:reinvdwoerd/$argv.git"
+end
+
 function gcp
     git commit -m "$argv"
     git push
