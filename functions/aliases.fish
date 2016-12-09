@@ -22,6 +22,7 @@ alias up="vup & gw"
 alias ni="npm install"
 alias nt="npm test"
 alias sls="sudo /opt/lampp/lampp start"
+alias htd="/opt/lampp/htdocs/"
 
 function gca
     git add .
