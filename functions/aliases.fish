@@ -15,6 +15,7 @@ alias gi="git init"
 alias gaa="git add ."
 alias gp="git push"
 alias gpu="git push -u origin master"
+alias gpl="git pull"
 alias v="nvim"
 alias vup="vagrant up"
 alias gw="gulp watch"
@@ -22,7 +23,7 @@ alias up="vup & gw"
 alias ni="npm install"
 alias nt="npm test"
 alias sls="sudo /opt/lampp/lampp start"
-alias htd="/opt/lampp/htdocs/"
+alias htd="cd /opt/lampp/htdocs/"
 
 function gca
     git add .
