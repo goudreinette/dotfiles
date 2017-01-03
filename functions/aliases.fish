@@ -16,6 +16,7 @@ alias gaa="git add ."
 alias gp="git push"
 alias gpu="git push -u origin master"
 alias gpl="git pull"
+alias gc="git clone"
 alias v="nvim"
 alias vup="vagrant up"
 alias gw="gulp watch"
@@ -35,22 +36,18 @@ function gcr
     git clone "git@github.com:reinvdwoerd/$argv.git"
 end
 
+function github
+    git clone "git@github.com:$argv.git"
+end
+
+
 function gcp
     git commit -m "$argv"
     git push
 end
 
-
 function gra
     git remote add origin "git@github.com:reinvdwoerd/$argv.git"
-end
-
-function gc
-    git clone "$argv"
-end
-
-function c
-    clear
 end
 
 function nir
